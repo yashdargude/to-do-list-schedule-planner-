@@ -1,0 +1,47 @@
+/* SignIn.css */
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Light Gray Background */
+  }
+  
+  .sign-in-card {
+    background-color: #fff; /* White Card Background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle Box Shadow */
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .sign-in-header {
+    color: #333; /* Dark Gray Text */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light Gray Border */
+    border-radius: 5px;
+  }
+  
+  .sign-in-btn {
+    background-color: #1976D2; /* Material Design Blue Button */
+    color: #fff; /* White Text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #1565c0; /* Darker Blue on Hover */
+  }
+  
